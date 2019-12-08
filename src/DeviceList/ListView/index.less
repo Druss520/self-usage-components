@@ -1,0 +1,19 @@
+@primaryColor: #ec1c24;
+.tree {
+    .list-view {
+      height: 70vh;
+      overflow: auto;
+    }
+    .searchInput {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 0;
+        :global(.ant-input) {
+            padding-right: 5px;
+        }
+    }
+    :global(.ant-input-search > .ant-input-suffix > .ant-input-search-button) {
+        height: 30px;
+        line-height: 30px;
+    }
+}
