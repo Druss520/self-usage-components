@@ -1,7 +1,7 @@
 {
-  "name": "uss-gis",
-  "version": "0.2.22",
-  "description": "uss-gis",
+  "name": "ylz-hz-listview",
+  "version": "1.0.0",
+  "description": "scroll list",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -12,7 +12,7 @@
     "build": "webpack --config webpack.prod.config.js"
   },
   "keywords": [],
-  "author": "liuhongyu",
+  "author": "yanglizhuo",
   "license": "ISC",
   "dependencies": {
     "antd": "^3.23.4",
