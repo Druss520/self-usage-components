@@ -1,3 +1,3 @@
-import { DeviceList, ImgView } from './components'
+import { ListView, ImgView } from './components'
 
-export { DeviceList, ImgView }
+export { ListView, ImgView }

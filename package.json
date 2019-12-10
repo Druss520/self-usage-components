@@ -1,6 +1,6 @@
 {
   "name": "ylz-hz-listview",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "infinit-scroll-list, img-card",
   "main": "dist/index.js",
   "files": [

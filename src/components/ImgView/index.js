@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './index.less'
 import classNames from 'classnames'
 import isHttp from '../../utils/ishttp'
+import PropTypes from 'prop-types'
 
 // 图片状态管理组件, 加载失败可以用默认图替换
 class ImgView extends Component {
@@ -15,7 +16,7 @@ class ImgView extends Component {
   }
 
   static defaultProps = {
-    src: 'http://iph.href.lu/100x100',
+    src: '',
     fail: '',
     className: 'complete',
   }
@@ -120,3 +121,9 @@ class ImgView extends Component {
 }
 
 export default ImgView
+
+ImgView.propTypes = {
+  className: PropTypes.string,
+  src: PropTypes.string,
+  fail: PropTypes.string,
+}

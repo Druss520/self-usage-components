@@ -9,6 +9,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     libraryTarget: 'commonjs2'
   },
+  optimization: {
+    minimize: false,
+  },
   module: {
     rules: [
       {

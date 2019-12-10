@@ -2,6 +2,7 @@ import React from 'react'
 import './index.less'
 import { Tabs } from 'antd'
 import ListView from './ListView'
+import PropTypes from 'prop-types'
 
 const TabPane = Tabs.TabPane
 const voidFun = () => {}
@@ -64,3 +65,16 @@ class DeviceList extends React.Component {
 }
 
 export default DeviceList
+
+DeviceList.propTypes = {
+  title: PropTypes.string,
+  onRefresh: PropTypes.func,
+  showTitle: PropTypes.bool,
+  onRefresh: PropTypes.func,
+  onSearch: PropTypes.func,
+  dataSource: PropTypes.array,
+  onScroll: PropTypes.func,
+  onPick: PropTypes.func,
+  onSingleClick: PropTypes.func,
+  renderItem: PropTypes.func,
+}
