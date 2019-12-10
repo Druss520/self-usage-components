@@ -1,4 +1,3 @@
-import {default as ListView} from './DeviceList';
-export * from './ImgView'
+import { DeviceList, ImgView } from './components'
 
-export  default ListView
+export { DeviceList, ImgView }
